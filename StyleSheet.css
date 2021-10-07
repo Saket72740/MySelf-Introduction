@@ -36,7 +36,7 @@ a:hover{
     width: 100%;
     opacity: 0.4;
 }
-#incont1{
+#inrow1{
     position: absolute;
     padding:12%;
     width:100%;
@@ -52,7 +52,7 @@ a:hover{
     width:50%;
     min-width: 40%;
 }
-#incont2{
+#inrow2{
     width:100%
 }
 #about1{
@@ -62,4 +62,8 @@ a:hover{
 #about2{
     padding:10%;
 
+}
+#inrow3{
+    width:100%;
+    padding-left:10%;
 }
