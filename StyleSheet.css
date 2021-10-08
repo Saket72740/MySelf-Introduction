@@ -30,7 +30,7 @@ a:hover{
 .container1{
     display: flex;
     position: relative;
-    height: 75vh;
+    height: 80vh;
 }
 #cont1{
     background-size: contain;
