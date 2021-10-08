@@ -1,6 +1,10 @@
 body{
     width:100%;
+<<<<<<< HEAD
     font-size: 90%;
+=======
+    font-size:90%;
+>>>>>>> 0b4a8b253f1c5feffa35deabc03603b045d1fb82
 }
 #nav0 {
     -webkit-box-shadow: 5px 5px 5px rgb(80, 79, 78);
@@ -30,6 +34,7 @@ a:hover{
 /* .container1{
     display: flex;
     position: relative;
+<<<<<<< HEAD
     height:auto;
     background-image: url('background_img2.jpg');
     opacity: 0.3;
@@ -41,6 +46,9 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+=======
+    min-height: 85vh;
+>>>>>>> 0b4a8b253f1c5feffa35deabc03603b045d1fb82
 }
 
 .container1::before {    
