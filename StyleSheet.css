@@ -36,12 +36,12 @@ a:hover{
 } */
 .container1 {
     position: relative; 
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 85vh;
+    min-height: 70vh;
 }
 
 .container1::before {    
