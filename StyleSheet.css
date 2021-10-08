@@ -1,5 +1,6 @@
 body{
     width:100%;
+    font-size: 90%;
 }
 #nav0 {
     -webkit-box-shadow: 5px 5px 5px rgb(80, 79, 78);
@@ -26,29 +27,56 @@ a:hover{
     color: lightgreen;
 }
 
-.container1{
+/* .container1{
     display: flex;
     position: relative;
-    height: 75vh;
+    height:auto;
+    background-image: url('background_img2.jpg');
+    opacity: 0.3;
+} */
+.container1 {
+    position: relative; 
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#cont1{
-    background-size: contain;
+
+.container1::before {    
+      content: "";
+      background-image: url('background_img2.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+      background-repeat: no-repeat;
+}
+/* #cont1{
+    background-size:cover;
     width: 100%;
     opacity: 0.4;
-}
+} */
 #inrow1{
-    position: absolute;
+    position: relative;
     padding:12%;
     width:100%;
 }
-
+/* #incont11{
+    position:relative;
+    top:5%;
+    bottom:5%;
+} */
 #myphoto{
-    margin-top: 5%;
+    margin: 5%;
     margin-left:10%;
     border-style:solid;
     border-width: 10px;;
     border-color: rgb(51, 49, 51);
-    height:80%;
+    height:auto;
     width:50%;
     min-width: 40%;
 }
@@ -56,6 +84,8 @@ a:hover{
     width:100%
 }
 #about1{
+    display: flex;
+    margin-top: 5px;
     height: 100%;
     width: 100%;
 }
